@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "videoplayer"
+    }
+  },
+  "defaultProject": "videoplayer",
+  "cli": {
+    "analytics": false
+  }
 }
