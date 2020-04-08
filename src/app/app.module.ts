@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { VideocenterComponent } from './videocenter/videocenter.component';
+import { VideolistComponent } from './videolist/videolist.component';
+import { VideoDetailComponent } from './video-detail/video-detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    VideocenterComponent,
+    VideolistComponent,
+    VideoDetailComponent
   ],
   imports: [
     BrowserModule,
