@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 
 const Video = require('../models/video');
 //const Author = require('../models/Author');
-
 const db ='mongodb://vkk976:dESFx3ZlT3eDZMcn@mongotrail-shard-00-00-dqumd.mongodb.net:27017,mongotrail-shard-00-01-dqumd.mongodb.net:27017,mongotrail-shard-00-02-dqumd.mongodb.net:27017/test?ssl=true&replicaSet=mongotrail-shard-0&authSource=admin&retryWrites=true&w=majority';
 mongoose.Promise= global.Promise;
 mongoose.connect(db,function(err){

@@ -1,9 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter} from '@angular/core';
+import {Video} from './../video';
 
 @Component({
   selector: 'app-videolist',
   templateUrl: './videolist.component.html',
-  styleUrls: ['./videolist.component.css']
+  styleUrls: ['./videolist.component.css'],
+  inputs:["videos"]
 })
 export class VideolistComponent implements OnInit {
 
