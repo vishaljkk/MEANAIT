@@ -24,12 +24,12 @@
               "src/assets"
             ],
             "styles": [
-              "C:/Users/visha/Desktop/projectait/videoplayer/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [
-              "C:/Users/visha/Desktop/projectait/videoplayer/node_modules/jquery/dist/jquery.min.js",
-              "C:/Users/visha/Desktop/projectait/videoplayer/node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -92,12 +92,12 @@
               "src/assets"
             ],
             "styles": [
-              "C:/Users/visha/Desktop/projectait/videoplayer/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [
-              "C:/Users/visha/Desktop/projectait/videoplayer/node_modules/jquery/dist/jquery.min.js",
-              "C:/Users/visha/Desktop/projectait/videoplayer/node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           }
         },

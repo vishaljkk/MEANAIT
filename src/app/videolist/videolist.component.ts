@@ -11,7 +11,7 @@ import {Video} from './../video';
 export class VideolistComponent implements OnInit {
   public SelectVideo = new EventEmitter();
   videos : Video[]=[
-    {"_id":"1","title":"Title 1","url":"https://www.youtube.com/watch?v=NTEvs30m9D8&list=PLC3y8-rFHvwj200LLotCYum_9wmGeTJx9&index=19", "description": "98798"},
+    {"_id":"1","title":"Title 1","url":"https://www.w3schools.com/", "description": "98798"},
     {"_id":"2","title":"Title 2","url":"https://www.youtube.com/watch?v=5U9uP6riAZM&list=RD5U9uP6riAZM&start_radio=1", "description": "768778"},
     {"_id":"3","title":"Title 3","url":"https://www.youtube.com/watch?v=kqmsZdE962Q&list=RDkqmsZdE962Q&start_radio=1", "description": "767689"},
     {"_id":"4","title":"Title 4","url":"https://www.youtube.com/watch?v=LWh5u9c6iZQ", "description": "98907"},
