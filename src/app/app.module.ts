@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { VideocenterComponent } from './videocenter/videocenter.component';
 import { VideolistComponent } from './videolist/videolist.component';
 import { VideoDetailComponent } from './video-detail/video-detail.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { VideoDetailComponent } from './video-detail/video-detail.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

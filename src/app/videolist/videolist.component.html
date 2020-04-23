@@ -1,1 +1,3 @@
-<p>videolist works!</p>
+<ul class="list-group">
+  <li (click)="onSelect(video)" class="list-group-item" *ngFor="let video of videos"><a>{{video.title}}</a><br></li>
+</ul>
