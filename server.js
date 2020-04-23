@@ -7,7 +7,7 @@ const api = require('./server/routes/api');
 const port = 3000;
 
 const app = express();
-//aitangularvideoplayer
+//aitmeanvideoplayer
 
 app.use(express.static(path.join(__dirname,'dist/videoplayer')));
 
