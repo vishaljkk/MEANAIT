@@ -24,7 +24,7 @@ router.get('/',function(req,res){
 });
 
 
-router.get('/videos',function(req,res){
+router.get('/videoss',function(req,res){
   console.log('get request for all videos');
   Video.find({})
   .exec(function(err, videos){

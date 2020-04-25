@@ -9,6 +9,9 @@ import { VideolistComponent } from './videolist/videolist.component';
 import { VideoDetailComponent } from './video-detail/video-detail.component';
 import {FormsModule} from '@angular/forms';
 import { SafePipe } from './safe.pipe';
+import { HttpClientModule } from '@angular/common/http';
+import { VideoService } from './video.service';
+
 
 @NgModule({
   declarations: [
@@ -22,9 +25,12 @@ import { SafePipe } from './safe.pipe';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    VideoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
